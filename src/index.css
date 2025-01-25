@@ -1,0 +1,34 @@
+:root {
+  --bs-body-bg: #f8f9fa;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.todo-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.list-group-item {
+  transition: background-color 0.2s;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+}
+
+.about-page,
+.not-found {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
